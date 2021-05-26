@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface EmployeeDAO {
 
-    List getAllEmployees();
+    List<Employee> getAllEmployees();
 
     Employee findEmployeeById(int employeeId);
 
